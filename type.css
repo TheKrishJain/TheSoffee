@@ -1,0 +1,193 @@
+*:focus{
+    outline: none;
+}
+@font-face {
+    font-family: Soffee;
+    src: url(GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: Soffee1;
+    src: url(SecularOne-Regular.ttf);
+}
+@font-face {
+    font-family: Soffee2;
+    src: url(Pacifico-Regular.ttf);
+}
+.error{
+    visibility: hidden;
+    background-color:#f8d7da;
+    color: #872b38;
+ display: flex;
+ justify-content: center;
+ border-radius:20px 20px 0px 0px;
+ width: 325px;
+ position: relative;
+ left:31px;
+ bottom: 112px;
+ border:1px solid white;
+z-index: -2;
+}
+#errormsg{
+    color: #872b38;
+    font-family: Soffee1;
+}
+.error1{
+    visibility: hidden;
+    background-color:#f8d7da;
+    color: #872b38;
+ display: flex;
+ justify-content: center;
+ border-radius:20px 20px 0px 0px;
+ width: 23vw;
+ position: relative;
+ left:31px;
+ bottom: 170px;;
+ border:1px solid white;
+z-index: -3;
+}
+#errormsg1{
+    color: #872b38;
+    font-family: Soffee1;
+}
+.success{
+    visibility: hidden;
+    background-color:#d1e7dd;
+    color: #1d5a3f;
+ display: flex;
+ justify-content: center;
+ border-radius:20px 20px 0px 0px;
+ width: 23vw;
+ position: relative;
+ left:31px;
+ bottom: 55px;
+ border:1px solid white;
+z-index: -4;
+}
+.button{
+    font-size: medium;
+    width: 250px;
+    height:29px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-color: white;
+}
+.button:hover{
+    width: 240px;
+    height:27px;
+}
+.table{
+border: 1px solid white;
+height: 430px;
+width: 350px;
+color:white;
+border-radius:20px;
+backdrop-filter:blur(8px);
+}
+.table1{
+    border: 1px solid white;
+    height: 320px;
+    width: 390px;
+    color:white;
+    border-radius:20px;
+    backdrop-filter:blur(8px);
+    position: relative;
+    bottom: 170px;
+    }
+body{
+    display: flex;
+    justify-content: center;
+    background: url(a.jpg) ;
+    overflow-y:scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding:130px 0px;
+   height: auto;
+    
+}
+#LoginMail{
+}
+.credential{
+border: 1.5px solid white;
+border-radius: 7px;
+background-color: transparent;
+color: orange;
+height: 20px;
+z-index: -1;
+}
+
+.smalltext{
+        font-size:small;
+    }
+.Rememberme{
+     cursor: pointer;
+      color: orange;
+      accent-color: orange;
+}
+.Rememberme:hover{
+     color: orange;
+}
+.showpass{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 2;
+    position: relative;
+    /* right:27px; */
+    font-size: 13.5px;
+}
+.showpass:hover{
+    color: orange;
+}
+/* . */
+#forgotpass{
+    text-decoration:none ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 2px;
+}
+#forgotpass:hover{
+    color:orange;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ExistingUser{
+    text-decoration: none;
+}
+.ExistingUser:hover{
+    color:orange;
+    font-size: 15px;
+    font-weight: bold;
+}
+#hrule{
+
+    text-align: left;
+    width:77px;
+    color:white
+}
+#DOB{
+    border:none;
+    background-color: transparent;
+    color:orange;
+    font-weight: bold;
+    font-size: large;
+}
+/* signinshowpass{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 2;
+   
+    font-size: 13.5px;
+      right:27px; 
+
+}
+.signinshowpass:hover{
+    color: lightblue;
+} */

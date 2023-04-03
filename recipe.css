@@ -1,0 +1,141 @@
+*{margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    overflow-x:hidden;
+    }
+    @font-face {
+        font-family: Soffee;
+        src: url(GreatVibes-Regular.ttf);
+    }
+    @font-face {
+        font-family: Soffee1;
+        src: url(SecularOne-Regular.ttf);
+    }
+    @font-face {
+        font-family: Soffee2;
+        src: url(Pacifico-Regular.ttf);
+    }
+    .container{
+        width: 100%;
+    }
+    body{
+        width: auto;
+        height:auto;
+        background-color: black;
+
+    }
+    /* @keyframes navanimation{
+        from{color: white;}
+        to{color: orange;}
+        
+    } */
+    .navbar{
+        background-color: transparent;
+        position: static;
+        width:100vw;
+    
+    }
+    ul{
+        display: flex;
+        width: 100vw;
+        background-color: transparent;
+    }
+    li {
+        display: flex;
+        list-style-type: none;
+        color:white;
+        padding:21px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: orange;
+        transition: linear;
+        transition-duration: 0.1s;
+    }
+    #signup{
+        position: absolute;
+        left: 1290px;
+    }
+    #login{
+        position: absolute;
+        left:1200px;
+    }
+
+#cont1{
+    position: relative;
+    bottom: 70px;
+    z-index: -2;
+}
+
+
+#coffeevideo{
+    width: 100%;
+
+}
+#mainheading{
+    position: relative;
+    bottom: 500px;
+    left:330px;
+font-family: Soffee;
+color: white;
+font-size: 650%;
+}
+#soffeeheading{
+    color:#bc9667;
+    font-family: Soffee2;
+}
+.cont2{
+    position: relative;
+    bottom: 260px;
+    display: flex;
+    justify-content: center;
+    background-color: #edeae3;
+}
+#recpie{
+    font-family:Soffee1;
+    margin: 30px;
+    font-size: xxx-large;
+}
+iframe{
+    border-radius: 21px;
+margin: 10px;
+}
+
+
+
+
+
+
+.container4{
+    background: url(background.png);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+padding: 10px;
+    width: 100%;
+    height: 50%;
+    background-color:#edeae3;
+    position: relative;
+    bottom: 270px;
+
+}
+#footertable{
+    color: white;
+    height: 10%;
+    width: auto;
+}
+#mailto #telto{
+    text-decoration: underline;
+}
+#contacth{
+    font-size: x-large;
+    color: #bc9667;
+    font-family: Soffee2;
+    padding-bottom: 15px;
+}
