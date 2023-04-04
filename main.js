@@ -29,7 +29,10 @@ function checkPass() {
     }
 
     if(og.value==re.value && username!="" && email!="" ){
+        if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value))
+        {
         document.getElementById("success").style.visibility="visible";
+    }
     }
 setTimeout(function(){
         window.location.reload();
